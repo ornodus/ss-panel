@@ -1,5 +1,5 @@
 application: sound-url
-version: 54
+version: 56
 runtime: php55
 api_version: 1
 
@@ -18,5 +18,7 @@ env_variables:
   appName: ss-panel On GAE
   authDriver: cookie
   theme: default
-  timeZone: PRC     
+  timeZone: PRC    
+  db_driver: mysql
+  
  
