@@ -6,3 +6,8 @@ api_version: 1
 handlers:
 - url: /.*
   script: public/index.php
+
+env_variables:
+  debug:  'false' 
+  authDriver: 'cookie'
+ 
