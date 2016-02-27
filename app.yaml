@@ -1,11 +1,14 @@
-application: helloworld
-version: 50
+application: sound-url
+version: 51
 runtime: php55
 api_version: 1
 
 handlers:
 - url: /.*
   script: public/index.php
+  
+- url: /assets
+  static_dir: public/assets
 
 env_variables:
   debug:  true
