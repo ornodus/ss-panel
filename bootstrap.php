@@ -16,7 +16,7 @@ define('VERSION', '3.2.0');
 // Vendor Autoload
 require BASE_PATH.'/vendor/autoload.php';
 
-Boot::loadEnv();
+//Boot::loadEnv();
 Boot::setDebug();
 Boot::setVersion(VERSION);
 // config time zone
