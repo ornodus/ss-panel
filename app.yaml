@@ -10,4 +10,6 @@ handlers:
 env_variables:
   debug:  true
   authDriver: cookie
+  theme: default
+  timeZone: PRC     
  
