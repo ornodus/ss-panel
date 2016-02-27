@@ -15,6 +15,7 @@ handlers:
 
 env_variables:
   debug:  true
+  appName: ss-panel On GAE
   authDriver: cookie
   theme: default
   timeZone: PRC     
