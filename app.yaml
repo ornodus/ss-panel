@@ -1,0 +1,8 @@
+application: helloworld
+version: 40
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /.*
+  script: public/index.php
