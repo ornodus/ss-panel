@@ -1,5 +1,5 @@
 application: sound-url
-version: 51
+version: 52
 runtime: php55
 api_version: 1
 
@@ -7,8 +7,10 @@ handlers:
 - url: /.*
   script: public/index.php
   
-- url: /assets
-  static_dir: public/assets
+- url: /assets/(.*\.(htm$|html$|css$|js$|png$))
+  static_files: public/assets/\1
+  upload: public/assets/(.*\.(htm$|html$|css$|js$|png$))
+  application_readable: true
 
 env_variables:
   debug:  true
